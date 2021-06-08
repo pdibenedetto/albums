@@ -6,10 +6,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @EnableDiscoveryClient
 @SpringBootApplication
-public class AlbumsApplication {
+public class AlbumsResourceServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(AlbumsApplication.class, args);
+        SpringApplication.run(AlbumsResourceServerApplication.class, args);
     }
 
 }
